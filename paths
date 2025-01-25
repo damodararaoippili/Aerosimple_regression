@@ -1,0 +1,22 @@
+Jenkins: http://localhost:8080/login?from=%2F
+To generate an HTML report:
+installation packages : pip install pytest-html
+for run : pytest --html=report.html
+
+To generate an Allure Report:
+installation package : pip install allure-pytest selenium
+
+Download and install Allure Commandline from the official Allure website.
+Add the bin directory of Allure to your system's PATH environment variable.
+
+
+Run the tests and generate Allure result files : allure generate allure-results -o allure-report --clean
+This will create an allure-results directory containing the test execution data.
+
+Generate the Allure report using the result files:
+allure generate allure-results -o allure-report --clean
+
+Open the generated Allure report:
+allure open allure-report
+
+Run the following command to output a JUnit XML report:pytest --junitxml=report.xml

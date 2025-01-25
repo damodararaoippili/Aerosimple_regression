@@ -1,0 +1,27 @@
+Build_steps:
+Execute Windows batch command:   cd C:\Users\damod\PycharmProjects\Aerosimple
+                                 C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pytest
+
+cd C:\Users\damod\PycharmProjects\Aerosimple
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pip install pytest-html allure-pytest
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pytest --html=report.html
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pytest --alluredir=allure-results
+allure serve allure-results
+
+
+
+@echo off
+REM Navigate to your project directory
+cd C:\Users\damod\PycharmProjects\Aerosimple
+
+REM Install required dependencies
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pip install pytest-html allure-pytest
+
+REM Run tests and generate HTML report
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pytest --html=report.html
+
+REM Run tests and generate Allure results
+C:\Users\damod\AppData\Local\Programs\Python\Python313\python.exe -m pytest --alluredir=allure-results
+
+REM Serve Allure results
+allure serve allure-results

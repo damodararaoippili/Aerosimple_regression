@@ -1,31 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15441cf-9f48-4408-b7af-fbb83c2b22f5" name="Changes" comment="" />
+    <list default="true" id="c15441cf-9f48-4408-b7af-fbb83c2b22f5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Aerosimple.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Aerosimple.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;damodararaoippili&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/damodararaoippili/Aerosimple.git&quot;,
+    &quot;accountId&quot;: &quot;c63cad8d-023e-4544-9674-731c1b27ae2c&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2rtoYoAbfTyyQcZRolAoYg7ABaA" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for conftest.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_awo.test_Create_AWO.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_awo.test_create_awo.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_awo.test_create_work_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_create_nawo.test_create_work_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_edit_workorder.test_edit_work_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_login.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_maintenance_completion.test_maintenance_completion.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_module.test_run_selected_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_operation_completion.test_operation_completion.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_send_back_to_maintenance.test_send_back_maintenance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in conftest.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_create_awo.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_edit_workorder.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_maintenance_completion.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_module.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_send_back_to_maintenance.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.browser_setup.executor&quot;: &quot;Run&quot;,
+    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.login_data_reader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.module_data_reader.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/damod/PycharmProjects/AutomationPractice&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\damod\PycharmProjects\Aerosimple\tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.Python tests for test_create_nawo.test_create_work_order">
+    <configuration name="Python tests for test_create_awo.test_create_work_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/AWO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_awo.test_create_work_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_create_nawo.test_create_work_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/NAWO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_create_nawo.test_create_work_order&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_module.test_run_selected_tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_module.test_run_selected_tests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_send_back_to_maintenance.test_send_back_maintenance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/AWO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_send_back_to_maintenance.test_send_back_maintenance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in C:/Users/damod/PycharmProjects/Aerosimple/test_module.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_module.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Python tests for test_create_nawo.test_create_work_order" />
+        <item itemvalue="Python tests.Python tests for test_create_awo.test_create_work_order" />
+        <item itemvalue="Python tests.Python tests for test_module.test_run_selected_tests" />
+        <item itemvalue="Python tests.Python tests in C:/Users/damod/PycharmProjects/Aerosimple/test_module.py" />
+        <item itemvalue="Python tests.Python tests for test_send_back_to_maintenance.test_send_back_maintenance" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,5 +184,16 @@
       <updated>1737387782071</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
