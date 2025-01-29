@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c15441cf-9f48-4408-b7af-fbb83c2b22f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/in_progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/on_hold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/print_and_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/work_order_reassignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/on_hold.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_in_progress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_print_and_delete.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_work_order_reassignment.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jenkin_path" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paths" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,15 +30,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/damodararaoippili/Aerosimple_regression.git",
-    "accountId": "c63cad8d-023e-4544-9674-731c1b27ae2c"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/damodararaoippili/Aerosimple_regression.git&quot;,
+    &quot;accountId&quot;: &quot;c63cad8d-023e-4544-9674-731c1b27ae2c&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -45,19 +51,24 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python tests.Python tests for conftest.test_login.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for on_hold_and_remove_on_hold.test_in_progress.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_awo.test_Create_AWO.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_awo.test_create_awo.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_awo.test_create_work_order.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_create_nawo.test_create_work_order.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_edit_workorder.test_edit_work_order.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_in_progress.test_in_progress.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_login.test_login.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_maintenance_completion.test_maintenance_completion.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_module.test_run_selected_tests.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_operation_completion.test_operation_completion.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_print_and_delete.test_print_and_delete.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests for test_send_back_to_maintenance.test_send_back_maintenance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_work_order_reassignment.test_work_order_reassignment.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in conftest.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_create_awo.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_edit_workorder.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in test_in_progress.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_maintenance_completion.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_module.py.executor&quot;: &quot;Run&quot;,
     &quot;Python tests.Python tests in test_send_back_to_maintenance.py.executor&quot;: &quot;Run&quot;,
@@ -66,6 +77,7 @@
     &quot;Python.demo.executor&quot;: &quot;Run&quot;,
     &quot;Python.login_data_reader.executor&quot;: &quot;Run&quot;,
     &quot;Python.module_data_reader.executor&quot;: &quot;Run&quot;,
+    &quot;Python.on_hold.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -78,8 +90,30 @@
       <recent name="C:\Users\damod\PycharmProjects\Aerosimple\tests" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_create_nawo.test_create_work_order">
-    <configuration name="Python tests for test_create_awo.test_create_work_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_print_and_delete.test_print_and_delete">
+    <configuration name="on_hold" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pages/Workorders/AWO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pages/Workorders/AWO/on_hold.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_in_progress.test_in_progress" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Aerosimple" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,41 +124,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_awo.test_create_work_order&quot;" />
+      <option name="_new_target" value="&quot;test_in_progress.test_in_progress&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_create_nawo.test_create_work_order" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Aerosimple" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/NAWO" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_create_nawo.test_create_work_order&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_module.test_run_selected_tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="Aerosimple" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_module.test_run_selected_tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_send_back_to_maintenance.test_send_back_maintenance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_print_and_delete.test_print_and_delete" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Aerosimple" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,32 +139,47 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_send_back_to_maintenance.test_send_back_maintenance&quot;" />
+      <option name="_new_target" value="&quot;test_print_and_delete.test_print_and_delete&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in C:/Users/damod/PycharmProjects/Aerosimple/test_module.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_work_order_reassignment.test_work_order_reassignment" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Aerosimple" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/AWO" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_module.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;test_work_order_reassignment.test_work_order_reassignment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.Workorders.AWO.on_hold.test_in_progress" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Aerosimple" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/Workorders/AWO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.Workorders.AWO.on_hold.test_in_progress&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_create_nawo.test_create_work_order" />
-        <item itemvalue="Python tests.Python tests for test_create_awo.test_create_work_order" />
-        <item itemvalue="Python tests.Python tests for test_module.test_run_selected_tests" />
-        <item itemvalue="Python tests.Python tests in C:/Users/damod/PycharmProjects/Aerosimple/test_module.py" />
-        <item itemvalue="Python tests.Python tests for test_send_back_to_maintenance.test_send_back_maintenance" />
+        <item itemvalue="Python tests.Python tests for test_print_and_delete.test_print_and_delete" />
+        <item itemvalue="Python tests.Python tests for test_work_order_reassignment.test_work_order_reassignment" />
+        <item itemvalue="Python.on_hold" />
+        <item itemvalue="Python tests.Python tests for tests.Workorders.AWO.on_hold.test_in_progress" />
+        <item itemvalue="Python tests.Python tests for test_in_progress.test_in_progress" />
       </list>
     </recent_temporary>
   </component>
