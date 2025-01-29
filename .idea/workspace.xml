@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c15441cf-9f48-4408-b7af-fbb83c2b22f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/in_progress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/on_hold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/print_and_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/Workorders/AWO/work_order_reassignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/on_hold.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_in_progress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_print_and_delete.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/Workorders/AWO/test_work_order_reassignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c15441cf-9f48-4408-b7af-fbb83c2b22f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -158,7 +148,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for tests.Workorders.AWO.on_hold.test_in_progress" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for tests.Workorders.AWO.test_on_hold.test_in_progress" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="Aerosimple" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -169,7 +159,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;tests.Workorders.AWO.on_hold.test_in_progress&quot;" />
+      <option name="_new_target" value="&quot;tests.Workorders.AWO.test_on_hold.test_in_progress&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -178,7 +168,7 @@
         <item itemvalue="Python tests.Python tests for test_print_and_delete.test_print_and_delete" />
         <item itemvalue="Python tests.Python tests for test_work_order_reassignment.test_work_order_reassignment" />
         <item itemvalue="Python.on_hold" />
-        <item itemvalue="Python tests.Python tests for tests.Workorders.AWO.on_hold.test_in_progress" />
+        <item itemvalue="Python tests.Python tests for tests.Workorders.AWO.test_on_hold.test_in_progress" />
         <item itemvalue="Python tests.Python tests for test_in_progress.test_in_progress" />
       </list>
     </recent_temporary>
